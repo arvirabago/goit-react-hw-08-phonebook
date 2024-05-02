@@ -40,7 +40,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <form on onSubmit={handleFormSubmit}>
+    <form onSubmit={handleFormSubmit} className={style.contactForm}>
       <h3 className={style.subtitle}>Name</h3>
       <input
         type="text"

@@ -10,11 +10,11 @@ export const ContactItem = ({ name, number, id }) => {
   };
 
   return (
-    <li className={style.contact_item}>
-      {name} : {number}
+    <li className={style.contactItem}>
+      <span className={style.contactDetails}>{name} : {number}</span>
       <button
         type="button"
-        className={style.delete_button}
+        className={style.deleteButton}
         onClick={handleDeleteContact}
       >
         Delete

@@ -12,9 +12,10 @@ export const ContactList = () => {
   });
 
   return (
-    <ul className={style.contact_list}>
+    <ul className={style.contactList}>
       {filteredContacts.map((contact) => (
         <ContactItem
+          key={contact.id} // Don't forget to add a unique key prop
           name={contact.name}
           number={contact.number}
           id={contact.id}
