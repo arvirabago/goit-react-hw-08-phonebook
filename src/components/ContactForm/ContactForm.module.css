@@ -1,13 +1,42 @@
-.input {
-  margin-top: 10px;
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0;
+  width: 300px;
 }
 
-.add_contact_button {
-  margin-top: 20px;
-  border-radius: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
+.inputField {
+  margin-bottom: 10px;
 }
-.add_contact_button:hover {
+
+.input {
+  padding: 8px;
+  border: 1px solid #E5E9EC;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.customPhoneInput {
+  padding: 8px;
+  border: 1px solid #E5E9EC;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.customPhoneInput input {
+    border: none;
+}
+
+.button {
+  background-color: #7C616C;
+  color: #EAFDF8;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+}
+
+.button:hover {
+  background-color: #D1B1CB;
 }

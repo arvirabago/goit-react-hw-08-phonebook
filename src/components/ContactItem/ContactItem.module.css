@@ -1,14 +1,30 @@
-.contact_item {
-  margin-top: 15px;
-  display: flex;
+.contactItem {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAFDF8;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    gap: 12px;
+    list-style: none;
 }
 
-.delete_button {
-  border-radius: 10px;
-  margin-top: 5px;
-  margin-left: 20px;
-  padding: 5px;
+.contactDetails {
+    color: #1d0d15;
+    text-align: center;
 }
-.delete_button:hover {
-  cursor: pointer;
+
+.deleteButton {
+    color: #EAFDF8;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:#7C616C;
+    color: #EAFDF8;
+}
+
+
+.deleteButton:hover {
+    background-color: #7C616C;
 }
